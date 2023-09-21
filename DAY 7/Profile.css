@@ -1,0 +1,64 @@
+/* Profile.css */
+
+/* Style the container */
+div {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+/* Login.css */
+
+/* Set the background image */
+body {
+  background-image: url('E:\take1\src\img\buddhist-meditates-tranquil-pond-surrounded-by-lotus-generative-ai.jpg'); /* Replace 'background.jpg' with your image file's path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+  margin: 0; /* Remove default body margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style your login container */
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the login container */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the user info */
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style the text color based on theme */
+div {
+  color: var(--text-color, black);
+}
+
+/* Add some animation to the component */
+div {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Center align the component */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
